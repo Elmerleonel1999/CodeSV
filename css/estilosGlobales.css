@@ -1,0 +1,80 @@
+/* fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* variables de colores */
+:root {
+
+  --title: rgb(95, 95, 95);
+
+  --dark: #ffffff;
+  --card: #e8edf8;
+  --number: #000;
+  --text:rgb(66, 66, 66);
+
+  --bg-switch: rgb(192, 192, 192);
+  --cr-switch: rgb(255, 255, 255);
+
+  --header: #f1f4fc;
+  --txt-switch: rgb(148, 148, 148);
+  --bordes: #e8edf8;
+  --sombreado: 5px 5px  5px #3679b3,10px 10px  7px #499be2,
+               12px 12px 1px #89c3f7 ;
+  --bg-btn:#d2dcf3;
+  --cl-btn:#393a64;
+
+  --hover-btn:#c4d4fa;
+}
+
+
+.is-dark-mode {
+  --dark: #1d2029;
+  --card: #252b43;
+  --title: #8f90aa;
+  --text:#8f90aa;
+  --bg-switch: linear-gradient(to right, #5292d6, #18d4a9);
+  --cr-switch: #272b47;
+  --header: #252b43;
+  --txt-switch: rgb(197, 197, 197);
+  --bordes: #e2ebff48;
+  --bg-btn:#5b70a0;
+  --cl-btn:#b8b9f5;
+  --hover-btn:#5773b4;
+}
+
+.is-light-mode {
+  --color: black;
+
+  --bg-switch: rgb(192, 192, 192);
+  --cr-switch: rgb(255, 255, 255);
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-row-gap: 25px;
+}
+
+body {
+  background: var(--dark);
+}
+
+
+main{
+  padding:0px 15px;
+}
