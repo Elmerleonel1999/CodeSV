@@ -101,6 +101,9 @@ header {
   color:var(--title);
 }
 .btn-go{
+  display: block;
+  width:120px;
+  margin:auto;
   background:var(--bg-btn);
   color:var(--cl-btn);
   border-color: var(--border);
@@ -111,6 +114,7 @@ header {
 
 .btn-go:hover{
   background:var(--hover-btn);
+  cursor: pointer;
 }
 
 .btn-go:active{
