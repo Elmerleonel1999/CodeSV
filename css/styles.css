@@ -43,19 +43,19 @@ header {
 }
 .switch {
   display: block;
-  height: 40px;
-  width: 80px;
+  height: 26px;
+  width: 50px;
   border-radius: 20px;
   background: var(--bg-switch);
-  padding: 5px;
+  padding: 3px;
   box-sizing: border-box;
   cursor: pointer;
 }
 .switch::before {
   content: "";
   display: block;
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   background: var(--cr-switch);
   border-radius: 50%;
   transform: translateX(0px);
@@ -63,7 +63,7 @@ header {
   will-change: transform;
 }
 .checkbox:checked ~ .switch::before {
-  transform: translateX(40px);
+  transform: translateX(25px);
 }
 
 .checkbox {
@@ -101,6 +101,9 @@ header {
   color:var(--title);
 }
 .btn-go{
+  display: block;
+  width:120px;
+  margin:auto;
   background:var(--bg-btn);
   color:var(--cl-btn);
   border-color: var(--border);
@@ -111,6 +114,7 @@ header {
 
 .btn-go:hover{
   background:var(--hover-btn);
+  cursor: pointer;
 }
 
 .btn-go:active{
